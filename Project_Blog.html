@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FaithAbiala's Blog</title>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <style>
+            #home {
+                background-color: cadetblue;
+                width: 100%;
+                padding: 50px 0px 50px 0px;
+            }
+            #home h1 {
+                text-align: center;
+                color: white;
+                font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+                font-weight: bold;
+                font-size: 2em;
+            }
+            #home h3 {
+                text-align: center;
+                color: white;
+                font-family: serif, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 20px;
+                gap: 20px;
+            }
+            .img-container {
+                position: relative;
+                text-align: center;
+            }
+            .top-left {
+                background-color: white;
+                padding: 5px;
+                position: absolute;
+                top: 8px;
+                left: 8px;                
+            }
+            #about {
+                display: inline-flex;
+                width: 100%;
+                padding: 30px 0px 30px 0px;
+            }
+            #myPic {
+                width: 30%;
+                align-content: center;
+            }
+            #aboutMe {
+                width: 70%;
+                text-align: center;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #aboutMe h3 {
+                font-size: 1.5em;
+            }
+            #story {
+                background-color: cadetblue;
+                color: white;
+                padding: 70px 0px 100px 0px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #story h3, #ehealth h3 {
+                text-align: center;
+                font-size: 1.5em;
+                font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+            #story p, #ehealth p {
+                font-size: large;
+                text-align: justify;
+                padding: 0px 30px 0px 30px;
+            }
+            #ehealth {
+                padding: 70px 0px 50px 0px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #projects {
+                background-color: cadetblue;
+                padding: 50px 0px 70px 50px;
+            }
+            #projects h3 {
+                color: white;
+                text-align: center;
+                font-size: 1.5em;
+                font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+            .project-container {
+                display: inline-flex;
+                position: relative;
+                text-align: center;
+                width: 30%; 
+            }
+            .project-container img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            .centered {
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 50%;  
+                transform: translate(-50%, -50%);
+                font-weight: bold;
+                font-family: monospace, Arial, Helvetica, sans-serif;          
+            }
+            .centered a {
+                display: inline-block;
+                color: white;
+                background-color: cadetblue;
+                padding: 5px;
+                border: 1px solid white;
+            }
+            .centered a:hover {
+                color: blue;
+            }
+            #contact {
+                display: inline-flex;
+                width: 100%;
+                padding: 50px 0px 10px 0px;
+            }
+            #address {
+                width: 50%;
+                text-align: center;
+            }
+            #vl {
+                border-left: 5px solid cadetblue;
+                height: 200px;
+                position: absolute;
+                left: 50%;
+                margin-left: -3px;
+                top: 100;
+            }
+            #socials {
+                width: 50%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="home">
+            <h1>Hello! This is Faith Abiala.</h1>
+            <h3>A blog documenting my Front-End Web Development Journey</h3><br>
+            <div class="container">
+                <div class="img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWAQfSTiJ3urFM-0Yd0zAGJuC96oQWSQEvJA&s" alt="About Me" loading="lazy">
+                    <div class="top-left"><a href="#aboutMe">About Me</a></div>
+                </div>
+                <div class="img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6xKMjnt1iyfVQ0knvRqBqgQfecXR0YjBWA&s" alt="ALX" loading="lazy">
+                    <div class="top-left"><a href="#story">My Story</a></div>
+                </div>
+                <div class="img-container">
+                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="eHealth" width="225px" height="225px" loading="lazy">
+                    <div class="top-left"><a href="#ehealth">eHealth Africa</a></div>
+                </div>
+                <div class="img-container">
+                    <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="Projects" width="225px" height="225px" loading="lazy">
+                    <div class="top-left"><a href="#projects">Projects</a></div>
+                </div>
+                <div class="img-container">
+                    <img src="https://images.pexels.com/photos/11155396/pexels-photo-11155396.jpeg" alt="Contact Me" width="225px" height="225px" loading="lazy">
+                    <div class="top-left"><a href="#contact">Contact Me</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div id="myPic">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQFcuAyo_2OSBA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713420482858?e=1736380800&v=beta&t=NsxWjz8awpjaON90DjUz_bUfKZhehrGA0nkG3KL4Up8" alt="Faith Abiala Picture" width="100%">
+            </div> 
+            <div id="aboutMe">
+                <h3>FAITH ABIALA</h3>
+                <h3>Learning Front-end Web Developer and A Content Writer</h3>
+                <p>Faith is a young graduate with a degree in Remote Sensing and GIS transitioning into tech. While in university, I started with Data Analysis, learning majorly Microsoft Excel from YouTube and DataCamp. In my final year, I started content writing and worked as an intern for a geospatial company to write geospatial contents, tutorials, blog posts, newsletters, etc. </p>
+                <p>Following my story, one thing to note is that Faith loves to explore. She loves to read, learn, and make research. I pick new things and try them out to decide if it is really what she wants to do.</p>
+                <p>Now, I'm exploring and learning Front-end Web Development and it's pretty exciting, at least, at the moment. I'm excited about what I'm learning, the websites I'm building, and the platforms and opportunities I'm able to learn and explore</p>
+                <p>Asides tech, I love music! I love good food!</p>
+                <p>Well, that's that about me. You can catch me on my socials in the <a href="#contact">Contact Me</a> section</p>
+            </div>   
+        </div>
+        <div id="story">
+            <h3>MY STORY</h3>
+            <p>My journey into Front-end Web Development started when I took an ALX Professional Foundations course, which is a foundational course to learn the critical skills before transitioning into tech. My intention was to learn Data Analysis since I already had little knowledge on the subject matter. But while taking the 8-weeks course, I took a personality test that suggests tech career path that most suits you.</p>
+            <p>I took the personality test honestly and when I saw Front-end Web Development, I was indifferent: I have never thought about being a Web Developer before then. But I decided to give it a try and check it out.</p>
+            <p>The first thing I did was to go online, make research on how to get started on becoming a front-end web developer in 2024.</p>
+            <p>I found a very detailed roadmap and resources online to get started and since <b>August 2024</b>, it's been an amazing and exciting journey.</p>
+        </div>
+        <div id="ehealth">
+            <h3>eHealth Africa Front-End Web Development Training</h3>
+            <p>On one of the groups I belong to on WhatsApp, a link was posted to apply to be trained and mentored in different tech skills, an initiative by eHealth Africa Academy.</p>
+            <p>Checking through the link, reading the requirements and checking the tech paths availabe, I was glad I saw Front-end Web Development. I applied, and over the month, I did series of tests before being accepted as one of the eHA Academy cohort 6.</p>
+            <p>I am really grateful and excited about this opportunity because I get to learn for industry experts, I have access to mentorship and guidance, live sessions and self-paced courses.</p>
+            <p>It's been an amazing ride with eHA Academy. The courses are easy to understand and the live sessions are very interactive, timely, and interesting.</p>
+            <p>There are also series of quizzes, assignments, and projects to test our knowledge. I really love this aspect. <strong>It's not enough to watch videos and learning, being able to practise and build projects is a very important aspect of this career path.</strong></p>
+            <p>This blog you are reading is one of the spin-off projects we are tasked with in the third module of the self-pased course.</p>
+            <p>eHealth Africa Academy has really fueled my interest in Front-End Web Development and there's no stopping me. I will keep learning and building beautiful and responsive websites.</p>
+        </div>
+        <div id="projects">
+            <h3>PROJECTS</h3>
+            <div class="container">
+                <div class="project-container">
+                    <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400" loading="lazy">
+                    <div class="centered"><a href="#">A Restaurant Website Design using HTML5 and CSS</a></div>
+                </div>
+                <div class="project-container">
+                    <img src="https://images.pexels.com/photos/833109/pexels-photo-833109.jpeg?auto=compress&cs=tinysrgb&w=400" loading="lazy">
+                    <div class="centered"><a href="#">A Recipe Book Website</a></div>
+                </div>
+                <div class="project-container">
+                    <img src="https://images.pexels.com/photos/2682318/pexels-photo-2682318.jpeg?auto=compress&cs=tinysrgb&w=4s00" loading="lazy">
+                    <div class="centered"><a href="#">A Travel Web Page</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="address">
+                <h3>CONTACT ME</h3><br>
+                <address>
+                    <p><a href="tel:+2348012345678" class="fa fa-phone">&nbsp; +234 (0) 8012345678</a></p>
+                    <p><a href="mailto:faithabiala001@gmail.com" class="fa fa-envelope">&nbsp; faithabiala001@gmail.com</a></p>
+                </address>
+            </div>
+            <div id="vl"></div>
+            <div id="socials">
+                <h3>CATCH ME ON:</h3><br>
+                <p><a href="https://www.linkedin.com/in/faith-abiala/" class="fa fa-linkedin">&nbsp; LinkedIn</a></p>
+                <p><a href="https://www.instagram.com/faithie_fissy/" class="fa fa-instagram">&nbsp; Instagram</a></p>
+                <p><a href="https://x.com/deeLs_datagirl" class="fa fa-twitter">&nbsp; X (Twitter)</a></p>
+                <p><a href="https://github.com/AbialaFaith" class="fa fa-github">&nbsp; GitHub</a></p>
+            </div>
+        </div>
+    </body>
+</html>
