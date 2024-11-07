@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Travel Webpage</title>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    </head>
+    <style>
+        .home {
+            width: 100%;
+            background-image: url(https://traveltank.com/blog/wp-content/uploads/2021/10/obuudu2.jpg);
+            background-size: cover;
+            padding:150px 0px 150px 0px;
+            text-align: center;
+            align-items: center;
+            color: white;
+        }
+        .home h1 {
+            font-size: 3em;
+        }
+        .home p {
+            font-size: 1.5em;
+        }
+        #links {
+            margin-top: 100px;
+        }
+        #links a {
+            background-color: white;
+            margin-right: 100px;
+            font-size: 1.5em;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        #adventure {
+            padding: 50px 0px 50px 0px;
+            background-color: rgb(251, 251, 246);
+        }
+        h2.head, p.head {
+            text-align: center;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .adv_container {
+            display: inline-flex;
+            position: relative;
+            
+        }
+        .adv-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        h3.centered {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;  
+            transform: translate(-50%, -50%);
+            font-weight: bold; 
+            text-align: center;      
+        }
+        .info {
+            display: inline-block;
+            border: 1px solid gray;
+            border-radius: 10px;
+            width: 32%;
+            align-items: center;
+        }
+        .info img {
+            border: 5px ridge black;
+            width: 100%;
+        }
+        .info p {
+            text-align: center;
+        }
+        #fun {
+            
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        #fun h3 {
+            background-color: forestgreen;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .cablecar {
+            display: inline-flex;
+        }
+        .cablecar p {
+            width: 60%;
+            text-align: center;
+            align-content: center;
+            font-size: 1.5em;
+        }
+        .cablecar img {
+            float: right;
+            width: 40%;
+            border: 3px ridge black;
+            border-radius: 10px;
+        }
+        .waterpark {
+            display: inline-flex;
+        }
+        .waterpark p {
+            width: 60%;
+            text-align: center;
+            align-content: center;
+            font-size: 1.5em;
+        }
+        .waterpark img {
+            float: left;
+            width: 40%;
+            border: 3px ridge black;
+            border-radius: 10px;
+        }
+        .angelsview {
+            display: inline-flex;
+        }
+        .angelsview p {
+            width: 60%;
+            text-align: center;
+            align-content: center;
+            font-size: 1.5em;
+        }
+        .angelsview img {
+            float: right;
+            width: 40%;
+            border: 3px ridge black;
+            border-radius: 10px;
+        }
+    </style>
+    <body>
+        <div class="home">
+            <h1>Take a Trip to Obudu Mountain Resort</h1>
+            <p>Your Gateway to a Unique Adventure!</p>
+            <div id="links">
+                <a href="#adventure">Adventure</a>
+                <a href="#fun">Relax</a>
+            </div>  
+        </div>    
+        <div id="adventure">
+            <h2 class="head">The Adventure that awaits You</h2>
+            <p class="head">Come with your loved ones and experience Obudu adventures that you do not want to miss</p>
+            <div class="container">
+                <div class="info">
+                    <div class="adv_container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuOKhrgPG5h8ywPrHoCscsOjtc1l5q7ujwg&s" alt="An Image of the Obudu Plateau">
+                        <h3 class="centered">The Obudu Plateau</h3>
+                    </div>
+                    <p>The Obudu Plateau is found on the Oshie Ridge of the Sankwala Mountain range in Cross River State. It is a giant massive spread over an area of over 40 square miles and rises to about 5200 ft above sea level, with its peak reaching a height of about 1,716 metres above sea level. The plateau is known to be a habitat of rare species of birds.</p>
+                </div>
+                <div class="info">
+                    <div class="adv_container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4m1Cy4c1zyaoPWtjTkySjY9yXLCkZIb4Ig&s" alt="A monkey on a tree in Becheve Nature Reserve in Obudu Mountain Resort">
+                        <h3 class="centered">Becheve Nature Reserve & Tree Nursery</h3>
+                    </div> 
+                    <p>The Becheve Nature Reserve is a conservation forest filled with various species of plants and animals. There are many species of trees and it holds some trees have been there before civilization.</p>
+                </div>
+                <div class="info">
+                    <div class="adv_container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRgoEascXQCV037HwrhAAiZe67X14V2VX5g&s" alt="A monkey on a tree in Becheve Nature Reserve in Obudu Mountain Resort">
+                        <h3 class="centered">Canopy Walkway</h3>
+                    </div> 
+                    <p>The Canopy Walkway is a 100m swinging bridge suspended above the forest, providing adventurers access to a forest canopy.</p>
+                </div>
+            </div>
+        </div>
+        <div id="fun">
+            <h2 class="head">The  Fun Things You Can Enjoy</h2>
+            <p class="head">Come and have a lot of fun and relax</p>
+            <h3>Cable Car</h3>
+            <div class="cablecar">
+                <p>Enjoy Obudu Cable Car to tour the whole mountain resort in less than 10 minutes. You get to view the resort that is 1576 meters above sea level. And it literally takes lesser time than driving round. <strong>Now, tell me that isn't fun and relaxing?</strong></p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRsfX82Wf3vsJLDVKOVypuD9osyV-_3FI1g&s" alt="a cable car flying over Obudu Mountain Resort">
+            </div>
+            <h3>Water Park</h3>
+            <div class="waterpark">
+                <img src="https://lh4.googleusercontent.com/-54iIe4TOL4I/U63zvGkh5RI/AAAAAAAAA1E/CXmuBNOcEBA/w225-h160-no/Obudu-Mountain-Resort-water-park.jpg" alt="a cable car flying over Obudu Mountain Resort">
+                <p>Experience fun with friends and family at the water park, with various activities and games available to make your experience a memorable one. You can swim, play in the water park, or even sit around and enjoy the scenery.</p>
+            </div>
+            <h3>Angel's View and Presidential Villa</h3>
+            <div class="angelsview">
+                <p>The Angel’s View is a point where some valleys form to give a “V” shape. This view takes your breath away and makes you appreciate the wonderful creation of God. Enjoy a breathtaking view that makes you excited and relaxed.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9hqgafp0dXSQpU_MSkBYB9qtc_VEV9dOmLg&s" alt="a cable car flying over Obudu Mountain Resort">
+            </div>
+        </div>
+    </body>
+</html>
+    
