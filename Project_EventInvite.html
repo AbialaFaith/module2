@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Event Invite</title>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                color: #630116;
+            }
+            .invite {
+                width: 300px;
+                height: 550px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                margin-top: 30px;
+                z-index: 1;
+                border: 2px solid rgb(220, 213, 213);
+                border-radius: 10px;
+                background-color: white;
+            }
+            .vl {
+                border-left: 15px solid #630116;
+                height: 550px;
+                position: absolute;
+                left: 20%;
+                margin-left: -3px;
+                top: 0;
+                z-index: 1;
+            }
+            #top {
+                width: 55%;
+                position: absolute;
+                top: 80px;
+                z-index: 2;
+            }
+            #up {
+                width: 50%;
+                position: absolute;
+                top: 150px;
+                z-index: 2;
+            }
+            #center {
+                width: 45%;
+                position: absolute;
+                top: 220px;
+                z-index: 2;
+            }
+            #down {
+                width: 40%;
+                position: absolute;
+                top: 280px;
+                z-index: 2;
+            }
+            .content {
+                width: 65%;
+                float: right;
+                text-align: center;
+                padding-top: 20px;
+                margin: 10px;
+            }
+            h3 {
+                font-family: Brush Script MT;
+                font-size: 2em;
+                font-weight: lighter;
+            }
+            p {
+                font-size: 0.7em;
+            }
+            .details {
+                display: inline-flex;
+                padding: 0px;
+                margin: 0px 10px 10px 10px;
+            }
+            .time {
+                width: 50%;
+                text-align: center;
+                line-height: 1.5px;
+            }
+            .venue {
+                width: 50%;
+                line-height: 1.5px;
+            }
+            .rsvp {
+                padding: 0px;
+                line-height: 1.5px;
+                margin: 0px 10px 10px 10px;
+            }
+            a {
+                background-color: #630116;
+                color: white;
+                padding: 0px 5px 0px 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="invite">
+            <div class="vl"></div>
+            <img id="top" src="https://static.vecteezy.com/system/resources/previews/029/285/720/non_2x/floral-wedding-decoration-floral-decoration-for-wedding-watercolor-transparent-background-ai-generative-free-png.png" alt="a wedding flower" loading="lazy">
+            <img id="up" src="https://static.vecteezy.com/system/resources/previews/029/285/720/non_2x/floral-wedding-decoration-floral-decoration-for-wedding-watercolor-transparent-background-ai-generative-free-png.png" alt="a wedding flower" loading="lazy">
+            <img id="center" src="https://static.vecteezy.com/system/resources/previews/029/285/720/non_2x/floral-wedding-decoration-floral-decoration-for-wedding-watercolor-transparent-background-ai-generative-free-png.png" alt="a wedding flower" loading="lazy">
+            <img id="down" src="https://static.vecteezy.com/system/resources/previews/029/285/720/non_2x/floral-wedding-decoration-floral-decoration-for-wedding-watercolor-transparent-background-ai-generative-free-png.png" alt="a wedding flower" loading="lazy">
+            <div class="content">
+                <p>TOGETHER WITH THEIR FAMILIES</p>
+                <h3>Damilola</h3>
+                <h3>&</h3>
+                <h3>Tokunbo</h3>
+                <p>INVITE YOU TO CELEBRATE THEIR WEDDING</p>
+            </div>
+            <div class="content details">
+                <div class="time">
+                    <p class="fa fa-calendar"></p>
+                    <p><b>21st April 2024</b></p>
+                    <p>ENGAGEMENT</p>
+                    <p>8 AM-10 AM</p>
+                    <p>CHURCH</p>
+                    <p>11 AM-1 PM</p>
+                    <p>RECEPTION</p>
+                    <p>2PM</p>
+                </div>
+                <div class="venue">
+                    <p class="fa fa-map-marker"></p>
+                    <p>Aderonke Hotels</p>
+                    <p>123 Hud St, Lagos</p>
+                </div>
+            </div>
+            <div class="content rsvp">
+                <p>Please RSVP <a href="#">here</a></p>
+                <p>Latest 18th April 2024</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
